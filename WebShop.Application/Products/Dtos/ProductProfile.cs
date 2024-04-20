@@ -3,9 +3,9 @@ using WebShop.Domain.Entities;
 
 namespace WebShop.Application.Products.Dtos;
 
-public class OrderProfile : Profile
+public class ProductProfile : Profile
 {
-    public OrderProfile()
+    public ProductProfile()
     {
         CreateMap<Product, ProductDto>();
     }
